@@ -18,3 +18,8 @@ variable "enable_execute_command" {
   type    = bool
   default = false
 }
+
+variable "main_region" {
+  type    = string
+  default = "eu-central-1"
+}
