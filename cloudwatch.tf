@@ -19,4 +19,5 @@ resource "aws_cloudwatch_log_group" "fargate_execute_command_logs" {
 
 resource "aws_kms_key" "fargate" {
   description             = "cloudwatch-encrpytion"
+  enable_key_rotation     = true
 }
